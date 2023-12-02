@@ -8,9 +8,13 @@ module.exports = {
         "secondary-dark": "#988B77",
         "secondary-light": "#DFD8CD",
         "white-accent": "#F7F5F3",
-        "blue-accent": "#97B5Cb"
-      }
+        "blue-accent": "#97B5Cb",
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require("@tailwindcss/typography"),
+    ,
+    "prettier-plugin-tailwindcss",
+  ],
+};
