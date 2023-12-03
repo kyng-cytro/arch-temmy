@@ -149,10 +149,15 @@ onMounted(() => {
               <span class="text-3xl font-bold tracking-tighter">About</span>
               <hr class="max-w-md" />
             </div>
-            <div class="h-full flex w-full bg-red-500"></div>
+            <div class="h-full flex w-full">
+              <div class="h-full w-full">wdw</div>
+
+              <div class="h-full w-full">wdw</div>
+            </div>
           </section>
           <section class="flex-shrink-0 bg-green-500 h-full w-full"></section>
           <section class="flex-shrink-0 bg-yellow-500 h-full w-full"></section>
+          <section class="flex-shrink-0 bg-orange-500 h-full w-full"></section>
         </div>
       </div>
 

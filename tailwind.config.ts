@@ -12,9 +12,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    ,
-    "prettier-plugin-tailwindcss",
-  ],
+  plugins: [],
 };
