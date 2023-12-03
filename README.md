@@ -1,75 +1,52 @@
-# Nuxt 3 Minimal Starter
+# **Architect Portfolio and Blog Site**
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the repository for Temi’s portfolio and blog site! This project is built using Nuxt 3, Tailwind CSS, and GSAP to showcase Temi’s work and thoughts in the field of architecture. Whether you're here to explore the portfolio or read insightful blog posts, we hope you enjoy your visit.
 
-## Setup
+## **Table of Contents**
 
-Make sure to install the dependencies:
+- [Getting Started](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#getting-started)
+- [Features](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#features)
+- [Technologies Used](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#technologies-used)
 
-```bash
-# npm
-npm install
+## **Getting Started**
 
-# pnpm
-pnpm install
+To get a copy of this project up and running on your local machine, follow these steps:
 
-# yarn
-yarn install
+1. **Clone the repository:**
 
-# bun
-bun install
-```
+   ```bash
+   git clone https://github.com/your-username/architect-portfolio.git
+   ```
 
-## Development Server
+2. **Navigate to the project directory:**
 
-Start the development server on `http://localhost:3000`:
+   ```bash
+   cd architect-portfolio
+   ```
 
-```bash
-# npm
-npm run dev
+3. **Install dependencies:**
 
-# pnpm
-pnpm run dev
+   ```bash
+   pnpm i
+   ```
 
-# yarn
-yarn dev
+4. **Run the development server:**
 
-# bun
-bun run dev
-```
+   ```bash
+   pnpm dev
+   ```
 
-## Production
+   The site will be available at [http://localhost:3000](http://localhost:3000/).
 
-Build the application for production:
+## **Features**
 
-```bash
-# npm
-npm run build
+- **Portfolio Showcase:** Present Temi's best works with stunning visuals and detailed project descriptions.
+- **Blog Section:** Share Temi's thoughts, insights, and experiences in the architecture field through engaging blog posts.
+- **Responsive Design:** Ensure a seamless experience across various devices, allowing users to explore the site on desktops, tablets, and smartphones.
+- **Animations with GSAP:** Implement smooth animations and transitions using GSAP to enhance the overall user experience.
 
-# pnpm
-pnpm run build
+## **Technologies Used**
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Nuxt 3:** A powerful framework for building Vue.js applications, providing server-side rendering and other performance optimizations.
+- **Tailwind CSS:** A utility-first CSS framework that makes styling and designing components a breeze.
+- **GSAP (GreenSock Animation Platform):** A JavaScript library for creating high-performance animations with ease.
