@@ -7,19 +7,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
   const sections = gsap.utils.toArray(".scroll section");
-  const container = document.querySelector(".scroll-conatiner");
 
   let scrollTween = gsap.to(sections, {
     xPercent: -100 * (sections.length - 1),
     ease: "none",
-    duration: 6,
     scrollTrigger: {
       scroller: ".main",
       trigger: ".scroll",
       pin: true,
       scrub: 1,
-      // @ts-ignore
-      end: `+=${container.offsetWidth}`,
+      end: `+=3000`,
       snap: 1 / (sections.length - 1),
     },
   });
