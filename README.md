@@ -4,9 +4,9 @@ Welcome to the repository for Temi’s portfolio and blog site! This project is 
 
 ## **Table of Contents**
 
-- [Getting Started](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#getting-started)
-- [Features](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#features)
-- [Technologies Used](https://chat.openai.com/c/2c2235e8-7789-46ae-9eed-9e1168a60cea#technologies-used)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
 ## **Getting Started**
 
